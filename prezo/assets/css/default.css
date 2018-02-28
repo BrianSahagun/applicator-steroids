@@ -1,0 +1,27 @@
+.prezo---a8r_f .post-content--main
+{
+	display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.prezo---a8r_f .post-content--main > .slide
+{	
+    padding-left: 1em;
+	padding-right: 1em;
+	
+	min-height: 100vh;
+	
+    font-size: 2em;
+}
+
+.prezo---a8r_f .main-content---hr,
+.prezo---a8r_f .main-content---fr,
+.prezo---a8r_f .main-header,
+.prezo---a8r_f .main-footer,
+.prezo---a8r_f .post---hr,
+.prezo---a8r_f .comment-md,
+.prezo---a8r_f .main-content-aside
+{
+	position:absolute;margin:-1px;padding:0;width:1px;min-width:auto;height:1px;min-height:auto;overflow:hidden;clip:rect(0,0,0,0);border:0;word-wrap:normal;
+}
