@@ -1,3 +1,8 @@
+.dom--unready .prezo---a8r_f .web-product
+{
+    visibility: hidden;
+}
+
 .prezo---a8r_f .post-content--main
 {
 	display: flex;
