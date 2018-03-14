@@ -1,6 +1,13 @@
-.dom--unready .prezo---a8r_f .web-product
+.prezo---a8r_f .web-product
 {
-    visibility: hidden;
+    opacity: 0;
+    
+    transition: opacity 1s ease-in-out;
+}
+
+.dom--ready .prezo---a8r_f .web-product
+{
+    opacity: 1;
 }
 
 .prezo---a8r_f .post-content--main
@@ -10,14 +17,35 @@
     flex-direction: column;
 }
 
-.prezo---a8r_f .post-content--main > .slide
+.prezo---a8r_f .post-content--main > *
 {	
-    padding-left: 1em;
-	padding-right: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    padding-left: 2rem;
+	padding-right: 2rem;
 	
-	min-height: 100vh;
+    width: 100%;
 	
     font-size: 2em;
+}
+
+.prezo---a8r_f .post-content--main > * .slide
+{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.prezo---a8r_f .post-content--main > ul,
+.prezo---a8r_f .post-content--main > ol
+{
+    padding-left: 2.25em;
+}
+
+.prezo---a8r_f .post-content--main > .slide
+{
+	min-height: 100vh;
 }
 
 .prezo---a8r_f .main-content---hr,
