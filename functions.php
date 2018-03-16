@@ -10,14 +10,13 @@
 
 $r_functions = array(
     'class-name-custom-fields',
-    'content-shortcode',
-    'custom-fields-shortcode',
     'htmlok-shortcode',
-    'tag-shortcode',
+    'percept-shortcode',
     'post-banner-visual-custom-fields',
     'post-version-custom-fields',
     'shortcodes-init',
     'svg',
+    'tag-shortcode',
 );
 
 
