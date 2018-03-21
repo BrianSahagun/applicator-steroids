@@ -5,7 +5,7 @@ Plugin Name: Applicator on Steroids
 Plugin URI: http://applicator.dysinelab.com/plugins/applicator-steroids/
 Description: Applicator Transformation Pack
 Author: Brian Dys Sahagun
-Version: 0.0.0.16
+Version: 0.0.0.17
 Author URI: http://briansahagun.com
 */
 

@@ -97,7 +97,7 @@ function applicator_percept_shortcode( $atts )
                 $the_query->the_post();
 
                 $section_mu = '<section class="applicator-percept" data-source-url="'. get_the_permalink().'">';
-                    $section_mu .= '<h2>%2$s</h2>';
+                    $section_mu .= '<h1>%2$s</h1>';
                     $section_mu .= '%1$s';
                 $section_mu .= '</section>';
 
